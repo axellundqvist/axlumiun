@@ -22,11 +22,11 @@ gulp.task('run', ['sass', 'css', 'minify', 'copyhtml', 'imageMin']);
 
 
 gulp.task('watch', function(){
-    gulp.watch('workspace/sass/*.sass', ['sass']);
-    gulp.watch('workspace/css/*.css', ['css']);
-    gulp.watch('workspace/js/*.js', ['minify']);
-    gulp.watch('workspace/*.html', ['copyhtml']);
-    gulp.watch('workspace/images/*', ['imageMin']);
+   * gulp.watch('workspace/sass/*.sass', ['sass']);
+   * gulp.watch('workspace/css/*.css', ['css']);
+   * gulp.watch('workspace/js/*.js', ['minify']);
+   * gulp.watch('workspace/*.html', ['copyhtml']);
+   * gulp.watch('workspace/images/*', ['imageMin']);
 });
 
 
